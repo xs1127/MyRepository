@@ -1,0 +1,15 @@
+versionName:1.9
+crashTime:2015_06_16_13_48_19
+userName:ygsdzdlm
+java.lang.NullPointerException
+	at com.ygxj.core.impl.PatrolInfoImpl$2.onSuccess(PatrolInfoImpl.java:290)
+	at com.lidroid.xutils.http.HttpHandler.onProgressUpdate(HttpHandler.java:218)
+	at com.lidroid.xutils.task.PriorityAsyncTask$InternalHandler.handleMessage(PriorityAsyncTask.java:385)
+	at android.os.Handler.dispatchMessage(Handler.java:110)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:5292)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:824)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:640)
+	at dalvik.system.NativeStart.main(Native Method)
